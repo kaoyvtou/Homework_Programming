@@ -21,6 +21,6 @@ public class PlayerRotation : MonoBehaviour
 
         float rotZ = Mathf.Atan2(pos.y, pos.x) * Mathf.Rad2Deg;
 
-        transform.rotation = Quaternion.Euler(0, 0, rotZ - 98);
+        transform.rotation = Quaternion.Euler(0, 0, rotZ - 90);
     }
 }
